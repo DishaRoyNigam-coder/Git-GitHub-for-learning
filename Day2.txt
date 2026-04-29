@@ -1,0 +1,79 @@
+1)local version Control System
+2) Central version cantrol System
+3)Distributed version cantrol System
+
+Git ek Software(jo apko apni machine par use krna hai )
+git ke sath github ko bhi use kar skte hai or git ke sath Gitlab ko bhi.
+Github ek Service (jaha apki cental repo padi hai )
+
+--Work Flow of git --
+1) sabse pahle git install krna padta hai .(Git free hai Open Sorce)
+2) ek folder banyege .
+3) check karenge ki git install ho gya ya nhi .
+4) git --version   (command)
+5) git init     (command)
+           jese hi git init command chelgi to .git ke nam se hiddden folder ban jayega ye folder convert ho jayega ek git repo me(local repo ) .
+           1)Working dir/ work space
+           jaha code likhte hai use working dir kahte hai.
+           2)Staging area
+           code likhne ke bad staging area me add karte hai .
+6) git add .    (command )
+            agr staging area se file wapis lai ho to.
+7) git reset  (command)
+                 3)local repo
+        commit karne ka mtlb code ka snapshot lena .
+8) git commit  (command)
+    har commit ki commit id hoti hai 
+tag bhi de skte hai commit ko taki pata chal jaye is code me kya kam kiya tha 
+
+
+
+                ---Github---
+
+GitHub is a cental Storage hai 
+MicroSoft ne isse kharid liya hai 
+jab local repo me kam go jayega lo github par push karna hoga 
+ab apka code local me bhi hai or cental repo m bhi hia 
+staging area se jab hum commit krte hai to ek branch ban jati hai 
+jise main branch karte hai (local me )
+
+1) Repository :-
+               * Repository is a place where you have all your codes or kind of folder on server
+               * It is a kind of folder related to one product 
+               *changes are persnal to that particular Repository.
+
+2) server:-
+            *It Store all Repository.
+            *It contains matadata ALSO.
+                    
+3)working directory:-
+             *Where you see files physically and do modification.
+             * At a time ,you work on particular branch.
+
+4)Commit:- 
+         *code staging arease local repo me lana 
+         *commite local repo me hata or jpo gitHub me krte hai usse push kahte hai.
+         * har commite ki ek commitw id hoti hai .
+         * Even if you change one dot,Commit-ID will get Change.
+
+5) Commit Id:-
+            *Reference to identify Change
+            *To identify who changed the file
+                 
+6) Tag :-
+         Tags assign a meaningful name with a 
+         Specific version in the Repository Once a tag is Created for a particular save even if you Created a new Comment it will not be updated .
+
+7)snapshot:-
+          *jab hum commit krte hai ho snapshot banta hai .
+          *Represent Some data of particular time 
+          particular time par jo changes hue hai ye usse dikhata hai.
+
+8)Push :-
+          *jo bhi local repo me pada hai use centeral repo me dalna (Github) use push khte hai .
+          *copy hamare pass bhi raht hai or copy krta hia centeral repo me .
+9)pull:-
+          * centeral repo se code apne local machine par lane ko pull kahte hai . 
+10)branch:-
+            *defalut branch main branch hoti hai .
+            
