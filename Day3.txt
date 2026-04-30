@@ -1,0 +1,8 @@
+sabse pahle git install krna hai .
+fir check krna hai ki install hua ya nhi 
+      1)git --version     (command)
+      
+git ko configure krte hai by email or user name .
+      2)git confi --global user.name "Disha Nigam"   (command)
+      3)git config --global user.email "nigamdisha@gmail.com"   (command)
+      4)git config --list (command)
