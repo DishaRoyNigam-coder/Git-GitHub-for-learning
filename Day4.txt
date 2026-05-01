@@ -1,0 +1,42 @@
+1)sabse pahle ek folder banayege .
+2) usme git --version check karege .
+3) git init    (convert ho jayegi local repo me )
+4)folder me files banai hai 
+5)git status check krna hai 
+6)git add . 
+7)git commitn -m "this is a messges"
+8)git ststus     (sara code local repo ho dal jayega isliye working area khali ho hayega )
+9) git log        (commite kisne kiya ye git log batata hai )
+10) git show <commit id>   (kya code likha hai ye dekhne ke liye show command use krte hai  )
+11)git remote add origin  <url of github repo>
+12) git push -u origin main 
+
+
+
+                    <--- github repo ko local me kese laye --->
+
+
+1)git init 
+2) git remote add origin <github repo url >        (central repo se connect krta hai )
+3) git pull -u origin main 
+4)git log 
+5)git show <commite id >
+now add some code in the file 
+6) git status
+7)git add.
+8) git commit -m "This is message "
+9)git status
+10)git log 
+   git log --oneline 
+11) git push Origin main
+
+
+
+
+                        <---git ignore --->
+    1)sabse pgle ek file banai hogi .gitignore nam se 
+                  is file ke ander ye likhna hai         
+                           *.css
+    2) git add .gitignore
+    3) git commit -m "Message"
+    4) git status
